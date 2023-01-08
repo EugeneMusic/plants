@@ -61,8 +61,8 @@ h1, ul {
     font-size: 16px;
     line-height: 20px;
 }
-.logo_link {
-}
+
+.logo_link {}
 
 .header_link {
     font-family: 'Inika';
@@ -71,4 +71,13 @@ h1, ul {
     font-size: 16px;
     line-height: 50px;
     color: var(--black);
+}
+
+.active, .header_link:hover {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: var(--orange);
 }
