@@ -27,8 +27,21 @@ a {
     text-decoration: none;
 }
 
-h1, ul {
-    margin: 0
+h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.green {
+    color: var(--green);
+}
+
+.orange {
+    color: var(--orange);
 }
 
 /* ==================HEADER */
@@ -80,4 +93,55 @@ h1, ul {
     font-size: 16px;
     line-height: 50px;
     color: var(--orange);
+}
+
+/* =======================WELCOME */
+
+.welcome_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+
+.h2-inter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: var(--light-grey);
+}
+
+.p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--dark-grey);
+}
+
+.welcome_text {
+    margin-top: 45px;
+}
+
+.welcome_btn {
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid var(--orange);
+    margin-top: 48px;
+}
+
+.welcome_img {
+    display: block;
+    max-width: 448.8px;
+    max-height: 407.36px;
+}
+
+.welcome_content {
+    max-width: 549px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
