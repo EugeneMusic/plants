@@ -446,3 +446,7 @@ html {
 .github, .footer_list{
     gap: 20px;
 }
+
+.footer {
+    background-color: var(--bg-white);
+}
