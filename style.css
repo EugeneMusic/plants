@@ -1,4 +1,8 @@
 /* ==================COMMON */
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --bg-grey: #EDF2EC;
     --bg-white: #FFFFFF;
@@ -27,7 +31,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, ul, p {
+h1, h2, h3, ul, p, button {
     margin: 0;
     padding: 0;
 }
@@ -74,8 +78,6 @@ html {
     font-size: 16px;
     line-height: 20px;
 }
-
-.logo_link {}
 
 .header_link {
     font-family: 'Inika';
@@ -132,6 +134,11 @@ html {
     border-radius: 10px;
     border: 2px solid var(--orange);
     margin-top: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .welcome_img {
@@ -177,4 +184,104 @@ html {
 .about_text {
     margin-top: 40px;
     line-height: 30px;
+}
+
+/* =========================service */
+
+.service_container {
+    padding-top: 40px;
+    padding-bottom: 121px;
+}
+
+.service_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn_wrapper {
+    width: 67.5%;
+    margin-top: 29px;
+}
+
+.service_btn {
+    width: 161px;
+    height: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    margin-right: 35px;
+    border-radius: 5px;
+}
+
+.cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    row-gap: 55px;
+}
+
+.card {
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px solid #E3E1D5;
+    background-color: var(--bg-grey);
+    overflow: hidden;
+}
+
+.card_img {
+    width: 329px;
+    height: 350px;
+    background-color: var(--bg-grey);
+}
+
+.card_img-1 {
+    background-image: url(../plants/assets/JPG/one.jpg);
+}
+
+.card_img-2 {
+    background-image: url(../plants/assets/JPG/two.jpg);
+}
+
+.card_img-3 {
+    background-image: url(../plants/assets/JPG/three.jpg);
+}
+
+.card_img-4 {
+    background-image: url(../plants/assets/JPG/four.jpg);
+}
+
+.card_img-5 {
+    background-image: url(../plants/assets/JPG/five.jpg);
+}
+
+.card_img-6 {
+    background-image: url(../plants/assets/JPG/six.jpg);
+}
+
+.h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--orange);
+    margin-top: 10px;
+}
+
+.h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--light-grey);
+    margin-top: 15px;
+    text-align: center;
 }
