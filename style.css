@@ -406,6 +406,43 @@ html {
     padding-left: 20px;
     padding-top: 3px;
 }
+
 .arrow-2 {
     margin: -25px 36px 17px auto;
+}
+
+/* ======================FOOTER */
+
+.footer_container {
+    padding-top: 45px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_list {
+    display: flex;
+}
+
+.footer_item {
+    list-style-type: none;
+}
+
+.github, .git, .rs {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.rs {
+    margin-right: -20px;
+}
+
+.github, .footer_list{
+    gap: 20px;
 }
