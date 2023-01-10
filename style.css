@@ -367,3 +367,43 @@ html {
     margin-top: 40px;
     background-color: transparent;
 }
+
+/* ===================Contacts */
+
+.contacts_h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-right: 0;
+    padding-top: 5px;
+
+}
+
+.contacts_container {
+    background-image: url(../plants/assets/PNG/contact_woman.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: 109px 57px;
+    padding-top: 60px;
+}
+
+.contacts_menu {
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    margin-top: 37px;
+    margin-left: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: var(--light-grey);
+    padding-left: 20px;
+    padding-top: 3px;
+}
+.arrow-2 {
+    margin: -25px 36px 17px auto;
+}
