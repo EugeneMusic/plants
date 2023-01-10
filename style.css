@@ -29,6 +29,8 @@
 
 a {
     text-decoration: none;
+    border: none;
+    color: black;
 }
 
 h1, h2, h3, ul, p, button {
@@ -46,6 +48,17 @@ html {
 
 .orange {
     color: var(--orange);
+}
+
+button, a:hover {
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: var(--orange);
+    color: var(--bg-white);
+    transition: .6s;
 }
 
 /* ==================HEADER */
@@ -95,6 +108,7 @@ html {
     font-size: 16px;
     line-height: 50px;
     color: var(--orange);
+    transition: all .6s;
 }
 
 /* =======================WELCOME */
