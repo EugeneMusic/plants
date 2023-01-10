@@ -287,13 +287,15 @@ html {
 }
 
 /* ==============PRICES */
+.prices {
+    background-color: var(--bg-white);
+}
 
 .prices_container {
     padding-top: 40px;
     padding-bottom: 115px;
     display: flex;
     justify-content: space-between;
-    background-color: var(--bg-white);
 }
 
 .prices_h2 {
