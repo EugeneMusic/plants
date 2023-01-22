@@ -257,6 +257,8 @@ button:hover {
     width: 329px;
     height: 350px;
     background-color: var(--bg-grey);
+    background-size: cover;
+    background-position: center;
 }
 
 .card_img-1 {
@@ -472,6 +474,7 @@ button:hover {
 
 
 /* ====================Adaptiive */
+
 @media (max-width: 1240px) {
     .about_img {
         width: 38%;
@@ -484,7 +487,6 @@ button:hover {
         text-align: center;
         padding-left: 120px;
         padding-right: 120px;
-
     }
 
     .about_content {
@@ -493,6 +495,37 @@ button:hover {
         max-width: 100%;
     }
 
+    .service_content {
+        flex-direction: column;
+    }
+
+    .service_container {
+        padding-top: 60px;
+    }
+
+    .service_content>.h2 {
+        padding: 0;
+        width: 38%;
+        text-align: left;
+    }
+
+    .service_btn {
+        margin-right: 0px;
+    }
+
+    .btn_wrapper {
+        display: flex;
+        column-gap: 38px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .cards_wrapper {
+        margin-top: 40px;
+        row-gap: 38px;
+        column-gap: 106px;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -513,7 +546,6 @@ button:hover {
 
     .welcome_content {
         margin-top: 0px;
-
     }
 
     .h2-inter {
@@ -549,14 +581,39 @@ button:hover {
         margin-top: 53px;
     }
 
-    @media (max-width: 768px) {
-        .welcome_content {
-            max-width: 341px;
+    .cards_wrapper {
+        column-gap: normal;
+    }
 
-        }
+    .service_container {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .welcome_content {
+        max-width: 341px;
+    }
+
+    .cards_wrapper {
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 281px;
+    }
+
+    .card_img {
+        width: 100%;
+    }
+
+    .h4 {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
-    @media (max-width: 620px) {}
+@media (max-width: 620px) {}
 
-    @media (max-width: 380px) {}
+@media (max-width: 380px) {}
