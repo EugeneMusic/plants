@@ -694,6 +694,22 @@ button:hover {
     .welcome_content {
         max-width: 100%;
     }
+
+    .about_content {
+        min-width: auto;
+    }
+
+    .h2-inika {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about_text {
+        margin-top: 13px;
+        font-size: 15px;
+        line-height: 25px;
+
+    }
 }
 
 @media (max-width: 380px) {
@@ -713,4 +729,20 @@ button:hover {
         line-height: 20px;
         margin-top: 27px;
     }
+
+    .h2-inika {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .about_container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about_img {
+        width: 45%;
+        margin-top: 0px;
+    }
+
 }
