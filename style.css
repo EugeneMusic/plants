@@ -474,6 +474,11 @@ button:hover {
         padding-right: 50px;
     }
 
+    .header_container {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
     .welcome_container {
         padding-top: 40px;
         padding-bottom: 70px;
