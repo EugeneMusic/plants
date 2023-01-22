@@ -21,6 +21,11 @@
     justify-content: space-between;
 }
 
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -467,6 +472,28 @@ button:hover {
 
 
 /* ====================Adaptiive */
+@media (max-width: 1240px) {
+    .about_img {
+        width: 38%;
+        margin-top: 64px;
+    }
+
+    .h2-inika {
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+
+    .about_content {
+        min-width: 425px;
+        margin-top: 0px;
+        max-width: 100%;
+    }
+
+}
 
 @media (max-width: 1024px) {
     .container {
@@ -486,18 +513,18 @@ button:hover {
 
     .welcome_content {
         margin-top: 0px;
-        max-width: 341px;
 
     }
 
     .h2-inter {
         font-size: 35px;
     }
+
     .welcome_text, .welcome_btn {
         margin-top: 30px;
     }
 
-    .p {
+    .welcome_text {
         font-size: 16px;
         line-height: 25px;
     }
@@ -507,4 +534,29 @@ button:hover {
         max-height: 254.15px;
         order: 1;
     }
+
+    .about_container {
+        padding-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_content {
+        margin-top: 0px;
+    }
+
+    .about_text {
+        margin-top: 53px;
+    }
+
+    @media (max-width: 768px) {
+        .welcome_content {
+            max-width: 341px;
+
+        }
+    }
 }
+
+    @media (max-width: 620px) {}
+
+    @media (max-width: 380px) {}
