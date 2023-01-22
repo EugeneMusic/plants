@@ -612,6 +612,28 @@ button:hover {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .prices_container {
+        padding-top: 42px;
+        padding-bottom: 88px;
+
+    }
+
+    .prices_h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-left: 15px;
+    }
+
+    .prices_text {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 100px;
+    }
+
+    .prices_btn {
+        margin-top: 28px;
+    }
 }
 
 @media (max-width: 620px) {}
