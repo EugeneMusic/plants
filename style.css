@@ -473,4 +473,33 @@ button:hover {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .welcome_container {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    .welcome_content {
+        margin-top: 0px;
+        max-width: 341px;
+
+    }
+
+    .h2-inter {
+        font-size: 35px;
+    }
+    .welcome_text, .welcome_btn {
+        margin-top: 30px;
+    }
+
+    .p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .welcome_img {
+        max-width: 280px;
+        max-height: 254.15px;
+        order: 1;
+    }
 }
