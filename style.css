@@ -589,6 +589,23 @@ button:hover {
         padding-bottom: 70px;
     }
 
+    .contacts_container {
+        padding-top: 35px;
+        height: 739px;
+        background-size: 200px 248.49px;
+        background-position: 52% 100%;
+    }
+
+    .contacts_h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .contacts_menu {
+        margin: 100px auto 0;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -633,6 +650,25 @@ button:hover {
 
     .prices_btn {
         margin-top: 28px;
+    }
+
+    .footer_container {
+        padding-top: 33px;
+        padding-bottom: 18px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .github, .git, .rs {
+        line-height: 24px;
+    }
+
+    .rs {
+        margin-right: 0px;
+    }
+
+    .footer_list {
+        margin-top: 9px;
     }
 }
 
