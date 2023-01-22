@@ -457,10 +457,20 @@ button:hover {
     margin-right: -20px;
 }
 
-.github, .footer_list{
+.github, .footer_list {
     gap: 20px;
 }
 
 .footer {
     background-color: var(--bg-white);
+}
+
+
+/* ====================Adaptiive */
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
