@@ -708,7 +708,25 @@ button:hover {
         margin-top: 13px;
         font-size: 15px;
         line-height: 25px;
+    }
 
+    .service_content>.h2 {
+        width: 55%;
+    }
+
+    .service_container {
+        padding-top: 28px;
+    }
+
+    .service_btn {
+        width: 121px;
+        height: 31px;
+    }
+
+    .cards_wrapper {
+        justify-content: center;
+        margin-top: 44px;
+        row-gap: 34px;
     }
 }
 
@@ -743,6 +761,13 @@ button:hover {
     .about_img {
         width: 45%;
         margin-top: 0px;
+    }
+
+    .btn_wrapper {
+        column-gap: 10px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        row-gap: 10px;
     }
 
 }
