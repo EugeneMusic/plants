@@ -678,6 +678,12 @@ button:hover {
 }
 
 @media (max-width: 666px) {
+
+    .body_active {
+        overflow: hidden;
+        
+    }
+
     .container {
         padding-left: 25px;
         padding-right: 25px;
@@ -686,9 +692,29 @@ button:hover {
     .logo {
         padding-top: 5px;
     }
-
     .nav {
-        display: none;
+        position: absolute;
+    }
+
+    .nav_list {
+        margin-left: 100%;
+        position: fixed;
+        transition: 1s;
+        height: 40%;
+        min-height: 400px;
+        width: calc(100vw + 50px);
+        z-index: 3;
+        background-color: var(--bg-white);
+        flex-direction: column;
+        top: 0;
+    }
+
+    .nav_active {
+        margin-left: 0;
+    }
+
+    .header {
+        position: relative;
     }
 
     .burger {
@@ -696,6 +722,11 @@ button:hover {
         position: relative;
         height: 28px;
         width: 40px;
+        z-index: 20;
+    }
+
+    .burger_item {
+        position: fixed;
     }
 
     .burger_item {
