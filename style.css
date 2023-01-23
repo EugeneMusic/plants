@@ -822,4 +822,32 @@ button:hover {
         align-self: center;
     }
 
+    .contacts_container {
+        padding-top: 20px;
+        max-height: 445px;
+    }
+
+    .contacts_menu {
+        margin: 80px auto 0;
+        max-width: 300px;
+        padding-top: 5px;
+    }
+
+    .arrow-2 {
+        margin-right: 22px;
+    }
+
+    .contacts_container {
+        background-size: 100px 124.25px;
+        background-position: 49% 100%;
+
+    }
+
+    .footer_list {
+        margin-top: -3px;
+    }
+
+    .footer_container {
+        padding-top: 22px;
+    }
 }
