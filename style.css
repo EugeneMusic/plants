@@ -116,6 +116,10 @@ button:hover {
     transition: all .6s;
 }
 
+.burger {
+    display: none;
+}
+
 /* =======================WELCOME */
 
 .welcome_container {
@@ -131,7 +135,7 @@ button:hover {
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
-    color: var(--black);
+    color: var(--light-grey);
 }
 
 .p {
@@ -322,6 +326,7 @@ button:hover {
 .prices_h2 {
     font-size: 40px;
     line-height: 48px;
+    color: var(--black);
 }
 
 .prices_text {
@@ -678,8 +683,86 @@ button:hover {
         padding-right: 25px;
     }
 
+    .logo {
+        padding-top: 5px;
+    }
+
     .nav {
         display: none;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        height: 28px;
+        width: 40px;
+    }
+
+    .burger_item {
+        height: 2px;
+        width: 40px;
+        background-color: var(--light-grey);
+        position: absolute;
+        transition: transform 2s, bottom 2s;
+        transition-delay: 0s, 2s;
+    }
+
+    .burger_item__top {
+        top: 1px;
+        transition: transform 1s, top 1s;
+        transition-delay: 0s, 1s;
+    }
+
+    .burger_item__top::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 9px;
+        height: 2px;
+        background-color: var(--light-grey);
+        transition: top .5s;
+        transition-delay: 1.5s;
+    }
+
+    .burger_active .burger_item__top {
+        top: 13px;
+        transform: rotate(135deg);
+        transition: top 1s, transform 1s;
+        transition-delay: 0s, 1s;
+    }
+
+    .burger_active .burger_item__top::after {
+        top: 0px;
+        transition: top 1s;
+    }
+
+    .burger_item__bottom {
+        bottom: 0px;
+        transition: transform 1s, bottom 1s;
+        transition-delay: 0s, 1s;
+    }
+
+    .burger_item__bottom::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        bottom: 8px;
+        height: 2px;
+        background-color: var(--light-grey);
+        transition: bottom .5s;
+        transition-delay: 1.5s;
+    }
+
+    .burger_active .burger_item__bottom {
+        bottom: 13px;
+        transform: rotate(-135deg);
+        transition: bottom 1s, transform 1s;
+        transition-delay: 0s, 1s;
+    }
+
+    .burger_active .burger_item__bottom::after {
+        bottom: 0px;
+        transition: bottom 1s;
     }
 
     .welcome_container {
@@ -740,6 +823,12 @@ button:hover {
 }
 
 @media (max-width: 380px) {
+
+    .header_container {
+        padding-top: 27px;
+        padding-bottom: 36px;
+    }
+
     .h2-inter {
         font-size: 25px;
         line-height: 35px;
