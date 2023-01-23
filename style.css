@@ -131,7 +131,7 @@ button:hover {
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
-    color: var(--light-grey);
+    color: var(--black);
 }
 
 .p {
@@ -716,7 +716,9 @@ button:hover {
 
     .service_container {
         padding-top: 28px;
+        padding-bottom: 29px;
     }
+
 
     .service_btn {
         width: 121px;
@@ -727,6 +729,13 @@ button:hover {
         justify-content: center;
         margin-top: 44px;
         row-gap: 34px;
+    }
+
+    .prices_container {
+        padding-top: 22px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 38px;
     }
 }
 
@@ -768,6 +777,49 @@ button:hover {
         margin-top: 40px;
         flex-wrap: wrap;
         row-gap: 10px;
+    }
+
+    .prices_h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .price-table {
+        max-width: 224px;
+        margin-top: 35px;
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+
+    .table-item {
+        width: 180px;
+        height: 49.72px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 14px 23px 0 23px;
+        padding-top: 16px;
+        padding-left: 30px;
+    }
+
+    .prices_text {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 25px;
+    }
+
+    .price-img {
+        display: none;
+    }
+
+    .prices_btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+        align-self: center;
     }
 
 }
