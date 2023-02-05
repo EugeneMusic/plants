@@ -17,3 +17,5 @@ links.forEach(n => {n.addEventListener("click", ()=> {
     body.classList.toggle("body_active");
 })});
 
+alert("Привет!Пожалуйста, посмотри мою работу как можно позже, совсем не успеваю! Заранее больое спасибо!")
+

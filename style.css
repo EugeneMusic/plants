@@ -681,7 +681,6 @@ button:hover {
 
     .body_active {
         overflow: hidden;
-        
     }
 
     .container {
@@ -692,6 +691,7 @@ button:hover {
     .logo {
         padding-top: 5px;
     }
+
     .nav {
         position: absolute;
     }
