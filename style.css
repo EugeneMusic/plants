@@ -57,6 +57,7 @@ html {
 
 button, a:hover {
     cursor: pointer;
+    background-color: var(--bg-grey);
 
 }
 
@@ -240,6 +241,11 @@ button:hover {
     border-radius: 5px;
 }
 
+.service_btn__active {
+    background-color: var(--orange);
+    color: var(--bg-white);
+}
+
 .cards_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -255,6 +261,15 @@ button:hover {
     border: 1px solid #E3E1D5;
     background-color: var(--bg-grey);
     overflow: hidden;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    transition: all .8s;
+}
+
+.card__deactive {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    transition: all .8s;
 }
 
 .card_img {
